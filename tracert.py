@@ -141,7 +141,7 @@ def main(dest_ip, timeout: int=1, max_steps :int=32, t_type: str='icmp', print_e
 if __name__ == '__main__':
     if len(sys.argv) >= 2:
         parser = argparse.ArgumentParser(
-            prog='ProgramName',
+            prog='tracertUtil',
             formatter_class=argparse.RawDescriptionHelpFormatter,
             epilog=textwrap.dedent('''\
                  about program:
